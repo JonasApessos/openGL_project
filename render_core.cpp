@@ -20,7 +20,7 @@ GLvoid core_render()
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	glMatrixMode(GL_PROJECTION);
+	//glMatrixMode(GL_PROJECTION);
 
 	core_viewport_one();
 
@@ -30,7 +30,7 @@ GLvoid core_render()
 
 	core_viewport_four();
 
-	glMatrixMode(GL_MODELVIEW);
+	//glMatrixMode(GL_MODELVIEW);
 
 	fps_counter();
 	glutSwapBuffers();
